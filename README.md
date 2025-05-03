@@ -176,3 +176,7 @@ The system validates that phone numbers contain 10-15 digits, allowing for count
 - Email addresses are validated for proper format
 - Notes field is useful for storing relationship context or meeting places
 - Use consistent naming conventions for easier searching
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
