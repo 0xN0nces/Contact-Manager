@@ -17,7 +17,7 @@ A simple command-line contact management system to help you organize your contac
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/contact-manager.git
+git clone https://github.com/0xN0nces/contact-manager.git
 cd contact-manager
 ```
 
