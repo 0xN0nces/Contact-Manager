@@ -26,4 +26,18 @@ cd contact-manager
 chmod +x main.py
 ```
 
+## 🔍 Usage
+
+```bash
+python main.py <command> [options]
+```
+
+## ⚙️ Commands
+
+- `add`: Add a new contact
+- `list`: List contacts
+- `view`: View contact details
+- `edit`: Edit a contact
+- `delete`: Delete a contact
+- `export`: Export contacts to a file
 
