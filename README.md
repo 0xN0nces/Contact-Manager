@@ -124,4 +124,46 @@ python main.py list -s "example.com"
 python main.py list -s "555"
 ```
 
+### Edit a contact:
+```bash
+# Update contact name
+python main.py edit 1 -n "Jonathan Doe"
+```
 
+```bash
+# Update multiple fields
+python main.py edit 1 -e "jonathan@newdomain.com" -p "+1-555-987-6543"
+```
+
+```bash
+# Update only notes
+python main.py edit 1 --notes "Updated: Changed job"
+```
+
+### Delete a contact:
+```bash
+python main.py delete 1
+```
+
+### Export contacts:
+```bash
+# Export to JSON
+python main.py export contacts_backup.json
+```
+
+```bash
+# Export to CSV
+python main.py export contacts.csv -f csv
+```
+
+## 📞 Phone Number Formats
+
+The contact manager accepts various phone number formats:
+
+- Standard: `+1-555-123-4567`
+- International: `+44-20-1234-5678`
+- With parentheses: `(555) 123-4567`
+- Without formatting: `5551234567`
+- With dots: `555.123.4567`
+
+The system validates that phone numbers contain 10-15 digits, allowing for country codes.
