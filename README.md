@@ -167,3 +167,12 @@ The contact manager accepts various phone number formats:
 - With dots: `555.123.4567`
 
 The system validates that phone numbers contain 10-15 digits, allowing for country codes.
+
+## 💡 Tips
+
+- Use the search function to quickly find contacts across all fields
+- Export your contacts regularly to JSON or CSV for backup
+- Phone numbers are validated to ensure they're properly formatted
+- Email addresses are validated for proper format
+- Notes field is useful for storing relationship context or meeting places
+- Use consistent naming conventions for easier searching
