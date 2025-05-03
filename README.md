@@ -97,3 +97,31 @@ Options:
 ### Global options:
 
 - `-f, --file`: Contacts file (default: ~/.contacts.json)
+
+## 📝 Examples
+
+### Add a contact:
+```bash
+# Add a basic contact
+python main.py add "John Doe"
+```
+
+```bash
+# Add a contact with all details
+python main.py add "Jane Smith" -e "jane@example.com" -p "+1-555-123-4567" -n "Met at conference"
+```
+
+### List contacts:
+```bash
+# List all contacts
+python main.py list
+```
+
+```bash
+# Search contacts
+python main.py list -s "john"
+python main.py list -s "example.com"
+python main.py list -s "555"
+```
+
+
