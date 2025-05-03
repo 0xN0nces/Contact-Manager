@@ -12,3 +12,18 @@ A simple command-line contact management system to help you organize your contac
 - 📤 Export contacts to JSON or CSV
 - ✅ Email and phone number validation
 - 💾 Store contacts locally in JSON format
+
+## 🚀 Installation
+
+1. Clone this repository:
+```bash
+git clone https://github.com/yourusername/contact-manager.git
+cd contact-manager
+```
+
+2. Make the script executable (Unix/Linux/macOS):
+```bash
+chmod +x main.py
+```
+
+
