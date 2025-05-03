@@ -41,3 +41,59 @@ python main.py <command> [options]
 - `delete`: Delete a contact
 - `export`: Export contacts to a file
 
+## 📋 Command Options
+
+### Add a contact:
+```bash
+python main.py add <name> [options]
+```
+
+Options:
+
+- `-e, --email`: Email address
+- `-p, --phone`: Phone number
+- `-n, --notes`: Additional notes
+
+### List contacts:
+```bash
+python main.py list [options]
+```
+
+Options:
+
+- `-s, --search`: Search in contacts
+
+### View a contact:
+```bash
+python main.py view <id>
+```
+
+### Edit a contact:
+```bash
+python main.py edit <id> [options]
+```
+
+Options:
+
+- `-n, --name`: New name
+- `-e, --email`: New email
+- `-p, --phone`: New phone
+- `--notes`: New notes
+
+### Delete a contact:
+```bash
+python main.py delete <id>
+```
+
+### Export contacts:
+```bash
+python main.py export <output_file> [options]
+```
+
+Options:
+
+- `-f, --format`: Export format (json, csv)
+
+### Global options:
+
+- `-f, --file`: Contacts file (default: ~/.contacts.json)
